@@ -1,13 +1,13 @@
 package characters;
 
-public class Player {
+public class Enemy {
 
     String name;
     int HP;
 
-    public Player(String name){
+    public Enemy(String name, int HP){
         this.name = name;
-        this.HP = 100;
+        this.HP = HP;
     }
 
     public String getName() {
