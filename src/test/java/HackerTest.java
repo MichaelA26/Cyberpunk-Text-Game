@@ -21,4 +21,9 @@ public class HackerTest {
     public void hasHP(){
         assertEquals(100, hacker.getHP());
     }
+
+    @Test
+    public void canHack(){
+        assertEquals(hacker.hack(),"I'm in, time for data extraction.");
+    }
 }
