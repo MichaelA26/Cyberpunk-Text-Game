@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dbd01d-73cc-47ec-bb73-ede6a289ea75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/characters/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stealthTypes/Assassin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/stealthTypes/Smuggler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StealthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day_5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlayerTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +52,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in cyberpunk_text_game">
+    <configuration name="All in cyberpunk_text_game" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cyberpunk_text_game" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cyberpunk_text_game" />
       <option name="PACKAGE_NAME" value="" />
@@ -65,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in cyberpunk_text_game" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>
