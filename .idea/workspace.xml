@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dbd01d-73cc-47ec-bb73-ede6a289ea75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stealthTypes/Assassin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/stealthTypes/Smuggler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StealthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enemyTypes/Android.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HackerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Diplomat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Diplomat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

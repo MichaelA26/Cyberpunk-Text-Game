@@ -5,9 +5,9 @@ public class Enemy {
     String name;
     int HP;
 
-    public Enemy(String name, int HP){
+    public Enemy(String name){
         this.name = name;
-        this.HP = HP;
+        this.HP = 50;
     }
 
     public String getName() {

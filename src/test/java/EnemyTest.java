@@ -9,7 +9,7 @@ public class EnemyTest {
 
     @Before
     public void before() {
-        enemy = new Enemy("Benjamin Redditwarrior", 200);
+        enemy = new Enemy("Benjamin Redditwarrior");
     }
 
     @Test
@@ -19,6 +19,6 @@ public class EnemyTest {
 
     @Test
     public void hasHP() {
-        assertEquals(200, enemy.getHP());
+        assertEquals(50, enemy.getHP());
     }
 }

@@ -1,4 +1,9 @@
 package playerTypes;
 
-public class Hacker {
+import characters.Player;
+
+public class Hacker extends Player {
+    public Hacker(String name) {
+        super(name);
+    }
 }
