@@ -21,4 +21,9 @@ public class AndroidTest {
     public void hasHP(){
         assertEquals(50, android.getHP());
     }
+
+    @Test
+    public void canDefend() {
+        assertEquals("Android defence systems online.", android.defend());
+    }
 }
