@@ -5,8 +5,8 @@ import abilities.ISneakAttack;
 import characters.Player;
 
 public class Stealth extends Player implements IPunch, ISneakAttack {
-    public Stealth(String name) {
-        super(name);
+    public Stealth(String name, int HP, IPunch punch) {
+        super(name, HP, punch);
     }
 
     public String punch() {

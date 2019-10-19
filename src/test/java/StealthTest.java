@@ -7,10 +7,6 @@ import static org.junit.Assert.assertEquals;
 public class StealthTest {
     Stealth stealth;
 
-    @Before
-    public void before(){
-        stealth = new Stealth("The Raptor");
-    }
 
     @Test
     public void hasName(){

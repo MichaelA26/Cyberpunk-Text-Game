@@ -5,8 +5,8 @@ import abilities.IPunch;
 import characters.Player;
 
 public class Hacker extends Player implements IHack, IPunch {
-    public Hacker(String name) {
-        super(name);
+    public Hacker(String name, int HP, IPunch punch) {
+        super(name, HP, punch);
     }
 
     public String punch() {

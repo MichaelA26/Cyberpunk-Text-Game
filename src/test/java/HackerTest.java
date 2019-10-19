@@ -7,11 +7,6 @@ import static org.junit.Assert.assertEquals;
 public class HackerTest {
     Hacker hacker;
 
-    @Before
-    public void before(){
-        hacker = new Hacker("Ruby Deckard");
-    }
-
     @Test
     public void hasName(){
         assertEquals("Ruby Deckard", hacker.getName());

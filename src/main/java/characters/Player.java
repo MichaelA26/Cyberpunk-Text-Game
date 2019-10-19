@@ -1,13 +1,17 @@
 package characters;
 
-public class Player {
+import abilities.*;
 
-    String name;
-    int HP;
+public abstract class Player {
 
-    public Player(String name){
+    private String name;
+    private int HP;
+    private IPunch punch;
+
+    public Player(String name, int HP, IPunch punch){
         this.name = name;
         this.HP = 100;
+        this.punch = punch;
     }
 
     public String getName() {
