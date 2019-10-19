@@ -23,6 +23,11 @@ public class HackerTest {
     }
 
     @Test
+    public void canPunch(){
+        assertEquals(hacker.punch(),"Sha-bang!");
+    }
+
+    @Test
     public void canHack(){
         assertEquals(hacker.hack(),"I'm in, time for data extraction.");
     }

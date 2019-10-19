@@ -18,6 +18,11 @@ public class DiplomatTest {
     }
 
     @Test
+    public void canPunch(){
+        assertEquals(diplomat.punch(),"Sha-bang!");
+    }
+
+    @Test
     public void hasHP(){
         assertEquals(100, diplomat.getHP());
     }

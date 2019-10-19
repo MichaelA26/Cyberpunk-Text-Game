@@ -18,6 +18,10 @@ public class StealthTest {
     }
 
     @Test
+    public void canPunch(){
+        assertEquals(stealth.punch(),"Sha-bang!");
+    }
+    @Test
     public void hasHP(){
         assertEquals(100, stealth.getHP());
     }
