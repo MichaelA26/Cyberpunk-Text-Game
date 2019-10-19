@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dbd01d-73cc-47ec-bb73-ede6a289ea75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/ICoerce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/IDefend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/ISneakAttack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/characters/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/enemyTypes/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enemyTypes/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AndroidTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AndroidTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StealthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StealthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Diplomat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Diplomat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Stealth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Stealth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StealthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StealthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EnemyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EnemyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EnemyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EnemyTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +62,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AndroidTest.hasHP" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cyberpunk_text_game" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AndroidTest" />
+      <option name="METHOD_NAME" value="hasHP" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cyberpunk_text_game" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,6 +84,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in cyberpunk_text_game" />
+        <item itemvalue="JUnit.AndroidTest.hasHP" />
         <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>

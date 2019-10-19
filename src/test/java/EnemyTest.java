@@ -8,8 +8,8 @@ public class EnemyTest {
     Enemy enemy;
 
     @Before
-    public void before() {
-        enemy = new Enemy("Benjamin Redditwarrior");
+    public void setUp() {
+        enemy = new Enemy("Benjamin Redditwarrior", 50, 10);
     }
 
     @Test
@@ -20,5 +20,10 @@ public class EnemyTest {
     @Test
     public void hasHP() {
         assertEquals(50, enemy.getHP());
+    }
+
+    @Test
+    public void attack() {
+        assertEquals(10, enemy.attack());
     }
 }

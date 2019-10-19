@@ -4,10 +4,12 @@ public class Enemy {
 
     String name;
     int HP;
+    int attackDamage;
 
-    public Enemy(String name){
+    public Enemy(String name, int HP, int attackDamage){
         this.name = name;
-        this.HP = 50;
+        this.HP = HP;
+        this.attackDamage = attackDamage;
     }
 
     public String getName() {
@@ -16,5 +18,9 @@ public class Enemy {
 
     public int getHP() {
         return HP;
+    }
+
+    public int attack() {
+        return attackDamage;
     }
 }
