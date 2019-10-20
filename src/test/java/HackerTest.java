@@ -1,29 +1,29 @@
-import playerTypes.Hacker;
+package playerTypes;
+
+import abilities.IHack;
+import abilities.IPunch;
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class HackerTest {
-    Hacker hacker;
+    private Hacker hacker;
+    private IPunch punch;
+    private IHack hack;
+
+    @Before
+    public void setUp() {
+        hacker = new Hacker("Ruby Deckard", 100, punch, hack);
+    }
 
     @Test
-    public void hasName(){
+    public void getName() {
         assertEquals("Ruby Deckard", hacker.getName());
     }
 
     @Test
-    public void hasHP(){
-        assertEquals(100, hacker.getHP());
-    }
-
-    @Test
-    public void canPunch(){
-        assertEquals(hacker.punch(),"Sha-bang!");
-    }
-
-    @Test
-    public void canHack(){
-        assertEquals(hacker.hack(),"I'm in, time for data extraction.");
+    public void canHack() {
+        assertEquals(25, hack.hack());
     }
 }

@@ -1,5 +1,5 @@
 package abilities;
 
 public interface IPunch {
-    String punch();
+    int punch();
 }

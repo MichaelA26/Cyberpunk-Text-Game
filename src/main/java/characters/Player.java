@@ -1,17 +1,15 @@
 package characters;
 
-import abilities.*;
-
 public abstract class Player {
 
     private String name;
     private int HP;
-    private IPunch punch;
+    private int attackDamage;
 
-    public Player(String name, int HP, IPunch punch){
+    public Player(String name, int HP){
         this.name = name;
         this.HP = 100;
-        this.punch = punch;
+        this.attackDamage = attackDamage;
     }
 
     public String getName() {
@@ -20,5 +18,9 @@ public abstract class Player {
 
     public int getHP() {
         return HP;
+    }
+
+    public int attack() {
+        return attackDamage;
     }
 }

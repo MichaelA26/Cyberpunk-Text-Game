@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dbd01d-73cc-47ec-bb73-ede6a289ea75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/Hack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abilities/Punch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PunchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abilities/IHack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abilities/IHack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abilities/IPunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abilities/IPunch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/characters/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/characters/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HackerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StealthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StealthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/characters/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/characters/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Diplomat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Stealth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PlayerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StealthTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HackerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cyberpunk_text_game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playerTypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="playerTypes.HackerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="cyberpunk_text_game" />
       <option name="PACKAGE_NAME" value="" />
@@ -82,8 +112,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in cyberpunk_text_game" />
-        <item itemvalue="JUnit.AndroidTest.hasHP" />
+        <item itemvalue="JUnit.HackerTest" />
         <item itemvalue="JUnit.PlayerTest" />
+        <item itemvalue="JUnit.AndroidTest.hasHP" />
       </list>
     </recent_temporary>
   </component>

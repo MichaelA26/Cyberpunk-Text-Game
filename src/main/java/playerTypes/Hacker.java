@@ -1,19 +1,19 @@
 package playerTypes;
 
+import characters.Player;
 import abilities.IHack;
 import abilities.IPunch;
-import characters.Player;
 
-public class Hacker extends Player implements IHack, IPunch {
-    public Hacker(String name, int HP, IPunch punch) {
-        super(name, HP, punch);
+public class Hacker extends Player implements IHack{
+
+    private final IHack hack;
+
+    public Hacker(String name, int HP, IPunch punch, IHack hack) {
+        super(name, 100);
+        this.hack = hack;
     }
 
-    public String punch() {
-        return "Sha-bang!";
-    }
-
-    public String hack() {
-        return "I'm in, time for data extraction.";
+    public int hack() {
+        return 25;
     }
 }
