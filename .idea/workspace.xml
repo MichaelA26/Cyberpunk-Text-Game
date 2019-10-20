@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dbd01d-73cc-47ec-bb73-ede6a289ea75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/IShoot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/NexusRevolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/abilities/Punch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abilities/Punch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abilities/ICoerce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abilities/ICoerce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/abilities/ISneakAttack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/abilities/ISneakAttack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Diplomat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Hacker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/playerTypes/Stealth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/playerTypes/Assassin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DiplomatTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HackerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HackerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StealthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AssassinTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/playerTypes/Hacker.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />

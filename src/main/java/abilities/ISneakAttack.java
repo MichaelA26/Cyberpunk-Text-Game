@@ -1,5 +1,5 @@
 package abilities;
 
 public interface ISneakAttack {
-    String sneakAttack();
+    int sneakAttack();
 }

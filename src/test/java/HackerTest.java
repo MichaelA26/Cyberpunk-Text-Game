@@ -1,9 +1,8 @@
-package playerTypes;
-
 import abilities.IHack;
 import abilities.IPunch;
 import org.junit.Before;
 import org.junit.Test;
+import playerTypes.Hacker;
 import weapons.IShoot;
 
 import static org.junit.Assert.*;
@@ -28,4 +27,5 @@ public class HackerTest {
     public void canHack() {
         assertEquals(25, hacker.hack());
     }
+
 }
